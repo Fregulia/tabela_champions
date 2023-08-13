@@ -8,20 +8,11 @@
     padding-top: 20px;
     color: white;
 }
-.main_times{
+main{
     height: 700px;
     margin: 0;
     background-image: url(https://images5.alphacoders.com/571/thumb-1920-571559.jpg);
     background-size: 100%;
-    background-repeat: no-repeat;
-    padding-top: 30px;
-}
-.main_jogadores{
-    height: 900px;
-    margin: 0;
-    background-image: url(https://images5.alphacoders.com/571/thumb-1920-571559.jpg);
-    background-size: 130%;
-    background-position: center;
     background-repeat: no-repeat;
     padding-top: 30px;
 }
@@ -64,7 +55,7 @@ a {
     color: white;
 }
 .tabelas{
-    width: 60%; /* Fazer com que as tabelas ocupem 60% da largura total da página */
+    width: 60%;
 }
 
 
@@ -148,12 +139,4 @@ table{
 .tr__jogadores:hover{
     font-size: 24px;
 }
-.tabela__amarelo{
-    border-radius: 10px;
-    font-family: Arial, Helvetica, sans-serif;
-    color: white;
-    background-color: #202124;
-    width: 65%;
-    padding: 15px 2.5%;
-    margin-top: 25px
-}
+
