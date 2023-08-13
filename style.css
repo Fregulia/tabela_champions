@@ -1,0 +1,142 @@
+*{
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0 auto;
+}
+.topo{
+    height: 110px;
+    background-color: #162E58;
+    padding-top: 20px;
+    color: white;
+}
+main{
+    height: 700px;
+    margin: 0;
+    background-image: url(https://images5.alphacoders.com/571/thumb-1920-571559.jpg);
+    background-size: 100%;
+    background-repeat: no-repeat;
+    padding-top: 30px;
+}
+.titulo{
+    font-size: 18px;
+    margin-left: 10px;
+}
+.subtitulo1{
+    width: 250px;
+    height: 42.5px;
+    font-size: 26px;
+    text-align: center;
+    color: white;
+    float: left;
+    padding-top: 10px;
+    margin-left: 30%;
+    border-radius: 10px;
+    transition: 0.5s;
+}
+.subtitulo1:hover{
+    background-color: #3b5074;
+}
+.subtitulo2{
+    width: 250px;
+    height: 42.5px;
+    font-size: 26px;
+    text-align: center;
+    color: white;
+    float: right;
+    padding-top: 10px;
+    margin-right: 30%;
+    border-radius: 10px;
+    transition: 0.5s;
+}
+.subtitulo2:hover{
+    background-color: #3b5074;
+}
+a {
+    text-decoration: none;
+    color: white;
+}
+.tabelas{
+    width: 60%;
+}
+
+
+#g1{
+    text-align: center;
+    padding: 5px;
+    border-radius: 10px 10px 0 0;
+    color: #bdc1c6;
+    background-color:black;
+}
+#g2{
+    text-align: center;
+    margin-top: 30px;
+    padding: 5px;
+    border-radius: 10px 10px 0 0;
+    color: #bdc1c6;
+    background-color:black;
+}
+.grupo_a{
+    background-color: #202124;
+    width: 99.7%;
+    border-collapse: collapse;
+    color: #bdc1c6;
+}
+.grupo_b{
+    background-color: #202124;
+    width: 99.7%;
+    border-collapse: collapse;
+    color: #bdc1c6;
+}
+table,th,tr,td{
+    text-align: center;
+    border-top: solid 1px;
+}
+table{
+    border: solid 1px;
+}
+.logos{
+    padding-top: 4px;
+    width: 24px;
+    height: 24px;
+}
+.dados{
+    padding: 5px 15px;
+}
+.resultados{
+    width: 16px;
+    height: 16px;
+}
+#avatar__jogador{
+    padding-top: 5px;
+    width: 42px;
+    height: 42px;
+    border-radius: 50%;
+}
+.tabela__jogadores{
+    border-radius: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+    background-color: #202124;
+    width: 65%;
+    padding: 15px 2.5%;
+    margin-top: 25px
+}
+#nome__jogador{
+    width: 90%;
+    padding-left: 15px;
+    text-align: start;
+}
+.gols{
+    width: 10%;
+}
+.th__jogadores{
+    width: auto;
+    height: auto;
+    border: 0;
+}
+.tr__jogadores{
+    transition: 0.3s;
+}
+.tr__jogadores:hover{
+    font-size: 24px;
+}
+
